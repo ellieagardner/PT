@@ -1,7 +1,35 @@
-body {
-  padding-top: 5rem;
+body{
+  background-image: url(./background.jpg);
+  background-repeat: no-repeat;
 }
-.starter-template {
-  padding: 3rem 1.5rem;
-  text-align: center;
+div{
+  min-height: 10vh;
+  width: 100vw;
+}
+h1{
+    text-align: center;
+    font-size: 5em;
+}
+h2{
+    text-align: center;
+    font-size: 2.5em;
+}
+p{
+
+}
+div.contrast {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+li{
+    transition: 0.6s ease;
+}
+li:hover{
+    font-size: 1.2em;
+    transition: 0.6s ease;
 }
